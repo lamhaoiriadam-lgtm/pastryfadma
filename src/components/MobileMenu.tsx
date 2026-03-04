@@ -18,7 +18,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const socialLinks = [
     { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/pastry__fadma/', color: 'hover:text-pink-500' },
     { name: 'Facebook', icon: Facebook, href: 'https://www.facebook.com/share/1Aq7VDQrMi/?mibextid=wwXIfr', color: 'hover:text-blue-600' },
-    { name: 'WhatsApp', icon: MessageCircle, href: 'https://wa.me/yournumber', color: 'hover:text-green-500' },
+    { name: 'WhatsApp', icon: MessageCircle, href: 'https://wa.me/212754706569', color: 'hover:text-green-500' },
   ];
 
   return (
@@ -99,7 +99,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
             {/* Footer Info */}
             <div className="px-8 py-6 bg-stone-50">
               <p className="text-[10px] text-stone-400 leading-relaxed">
-                © 2024 FADMA Artisanal Pastries.<br />
+                © 2026 FADMA Artisanal Pastries.<br />
                 Crafted with passion in Morocco.
               </p>
             </div>

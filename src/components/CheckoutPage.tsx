@@ -69,7 +69,7 @@ export function CheckoutPage({
     }
 
     setErrors([]);
-    const whatsappNumber = '+212696531722';
+    const whatsappNumber = '+212754706569';
     
     let orderDetails = items.map(item => `- ${item.name} x${item.quantity} (${(item.price * item.quantity).toFixed(0)}dh)`).join('\n');
     

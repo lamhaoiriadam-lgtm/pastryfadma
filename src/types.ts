@@ -44,7 +44,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'fraisier-fadma',
     name: 'Fraisier “Fadma Signature”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Laissez-vous séduire par l'élégance absolue de notre Fraisier \"Fadma Signature\", une création qui célèbre la fraîcheur des saisons. Ce gâteau d'exception marie avec finesse des fraises sélectionnées pour leur parfum intense à une crème légère et aérienne, le tout reposant sur un biscuit d'une délicatesse rare.",
     price: 30,
     unit: 'DH',
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'royal-chocolat-majesty',
     name: 'Royal Chocolat “Majesty”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Succombez à la puissance et à la noblesse de notre Royal Chocolat \"Majesty\", un véritable hommage aux amateurs de cacao intense. Chaque bouchée révèle un jeu de textures magistral, mêlant l'onctuosité d'une mousse au chocolat profond au croquant irrésistible d'un praliné délicat.",
     price: 30,
     unit: 'DH',
@@ -78,7 +78,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'foret-noire-kasbah',
     name: 'Forêt Noire “Kasbah”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Plongez dans la gourmandise mystérieuse de notre Forêt Noire \"Kasbah\", une réinterprétation généreuse d'un grand classique. Ce gâteau superpose avec harmonie un biscuit au chocolat intense, des cerises juteuses et une crème chantilly d'une légèreté absolue.",
     price: 30,
     unit: 'DH',
@@ -96,7 +96,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'gateau-riz-au-lait',
     name: 'Gâteau Riz au Lait Caramel Demi-Sel',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Offrez-vous un retour en enfance empreint de nostalgie et de raffinement avec notre Gâteau au Riz au Lait et Caramel Demi-Sel. Cette création unique se compose d'une mousse vanille délicate enveloppant le crémeux authentique d'un riz au lait préparé à l'ancienne.",
     price: 30,
     unit: 'DH',
@@ -113,7 +113,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'voyage-exotique',
     name: 'Voyage “Exotique”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Évadez-vous le temps d'une dégustation avec notre gâteau Voyage \"Exotique\", une explosion de couleurs et de saveurs tropicales. Ce dessert solaire marie avec audace l'acidité vibrante du fruit de la passion à la douceur onctueuse de la mangue mûrie à point.",
     price: 30,
     unit: 'DH',
@@ -130,7 +130,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'chocolat-tonka-atlas-noir',
     name: 'Chocolat Tonka “Atlas Noir”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Explorez des saveurs inédites avec notre Chocolat Tonka \"Atlas Noir\". La puissance aromatique d'un chocolat noir d'exception est ici magnifiée par les notes complexes et amandées de la fève tonka pour un dessert intense et élégant.",
     price: 30,
     unit: 'DH',
@@ -145,9 +145,39 @@ export const PRODUCTS: Product[] = [
     ]
   },
   {
+    id: 'flan-royal-parisien',
+    name: 'Flan Royal Parisien',
+    category: 'GÂTEAUX',
+    description: "Un grand classique de la pâtisserie française revisité avec élégance. Le Flan Royal Parisien séduit par sa texture onctueuse et fondante, sublimée par une douce saveur de vanille. Une création intemporelle, à la fois simple et raffinée.",
+    price: 30,
+    unit: 'DH',
+    image: 'https://ik.imagekit.io/ehm3lt9la/flan%20parisien?updatedAt=1772539481108',
+    variants: [
+      { label: 'Individuel', price: 30 },
+      { label: 'Grand Format', price: 320 }
+    ],
+    ingredients: [
+      { name: 'Vanille', icon: '🍦' },
+      { name: 'Crème fondante', icon: '🥛' }
+    ]
+  },
+  {
+    id: 'caviar-cerise-noir-prestige',
+    name: 'Caviar Cerise “Noir Prestige”',
+    category: 'GÂTEAUX',
+    description: "Une création audacieuse et raffinée où l’intensité du chocolat rencontre la fraîcheur acidulée de la cerise. Le Caviar Cerise “Noir Prestige” offre un équilibre parfait entre douceur et caractère, pour une expérience gourmande élégante.",
+    price: 30,
+    unit: 'DH',
+    image: 'https://ik.imagekit.io/ehm3lt9la/caviar?updatedAt=1772539832700',
+    ingredients: [
+      { name: 'Cerise', icon: '🍒' },
+      { name: 'Chocolat', icon: '🍫' }
+    ]
+  },
+  {
     id: 'tarte-citron-zeste-beldi',
     name: 'Tarte Citron “Zeste Beldi”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Une explosion de fraîcheur acidulée avec notre Tarte Citron \"Zeste Beldi\". Son cœur crémeux au citron beldi repose sur une pâte sablée croquante, offrant un contraste saisissant entre douceur et vivacité.",
     price: 25,
     unit: 'DH',
@@ -160,7 +190,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'tarte-jnan-saison',
     name: 'Tarte “Jnan Saison”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "La Tarte \"Jnan Saison\" rend hommage aux vergers locaux. Garnie de fruits de saison mûris au soleil, elle offre une palette de saveurs naturelles et sucrées sur une base pâtissière croustillante.",
     price: 25,
     unit: 'DH',
@@ -172,7 +202,7 @@ export const PRODUCTS: Product[] = [
   {
     id: 'sable-breton-rose-atlas',
     name: 'Sablé Breton “Rose d’Atlas”',
-    category: 'GATEAUX',
+    category: 'GÂTEAUX',
     description: "Un voyage sensoriel unique où le croquant du sablé breton pur beurre rencontre la délicatesse parfumée de la rose de l'Atlas et la gourmandise acidulée de la framboise.",
     price: 25,
     unit: 'DH',
@@ -360,7 +390,7 @@ export const INITIAL_CART: CartItem[] = [];
 export const CATEGORIES = [
   'All',
   'Plateaux',
-  'GATEAUX',
+  'GÂTEAUX',
   'CAKES',
   'Coffrets'
 ];
